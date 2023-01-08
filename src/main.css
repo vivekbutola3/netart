@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient(to bottom, #ffffff -2%, #ffcc00 171%);
+}
+.component-logo img {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.component-main {
+  display: flex;
+  justify-content: space-between;
+}
+.left img {
+  width: 300px;
+}
+.right h1 {
+  font-size: 14px;
+}
+.right {
+  position: relative;
+  right: 2%;
+  width: 900px;
+  font-size: 13px;
+}
+.right img {
+  width: 95%;
+}
+.footer-banner img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  text-align: center;
+}
+hr {
+  border: 1px solid red;
+}
+.footer-banner h1 {
+  font-size: 14px;
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
